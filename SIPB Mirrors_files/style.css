@@ -1,0 +1,58 @@
+/*
+ *  This style contains a table design inspired by "Grey Suits you Sir",
+ *  originally written by Stuart Colville, http://www.muffinresearch.co.uk
+ */
+
+table, td {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+    font: small/1.5 "Tahoma", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+}
+table {
+    border:none;
+    border:1px solid #CCC;
+    color: black;
+}
+thead th, tbody th {
+    background: #FFF url(th_bck.gif) repeat-x;
+    padding: 5px 10px;
+    border-left: 1px solid #CCC;
+}
+tbody th {
+    background: #fafafb;
+    border-top: 1px solid #CCC;
+    text-align: left;
+    font-weight: normal;
+}
+tbody tr td {
+    padding: 5px 10px;
+}
+tbody tr:hover {
+    background: #FFF url(tr_bck.gif) repeat;
+}
+
+tbody tr:hover td {
+    color: #454545;
+}
+tfoot td, tfoot th {
+    border-left: none;
+    border-top: 1px solid #CCC;
+    padding: 4px;
+    background: #FFF url(foot_bck.gif) repeat;
+}
+caption {
+    text-align: left;
+    font-size: 120%;
+    padding: 10px 0;
+}
+table a:link {
+}
+table a:visited {
+}
+table a:hover {
+    color: #003366;
+    text-decoration: none;
+}
+table a:active {
+    color: #003366;
+}
